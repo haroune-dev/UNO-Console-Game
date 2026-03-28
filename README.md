@@ -83,13 +83,17 @@ Whether you want a quick solo game against the bot or a multiplayer session with
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/UNO-Console-Game.git
+git clone https://github.com/haroune-dev/UNO-Console-Game.git
 
 # 2. Navigate to the project directory
 cd UNO-Console-Game
 
-# 3. Compile the source files
+# 3. Compile the source files (Linux/macOS or Git Bash)
 javac -d bin src/**/*.java
+
+# On Windows CMD, use explicit paths:
+javac -d bin src\cards\*.java src\deck\*.java src\player\*.java src\enumTypes\*.java src\game\*.java
+
 
 # 4. Run the game
 java -cp bin game.Drive
@@ -171,11 +175,11 @@ UNO-Console-Game/
    - See your **hand** and **playable cards**
    - **Select a card** to play, or **draw** if you have no valid moves
 4. **Action cards** trigger immediately:
-   - 🔄 **Reverse** — Changes the turn direction
-   - 🚫 **Skip** — Skips the next player
-   - ➕2 **Draw Two** — Next player draws 2 cards and loses their turn
-   - 🌈 **Wild** — Choose any color to continue
-   - 🌈➕4 **Wild Draw Four** — Choose a color + next player draws 4 cards
+   -  **Reverse** — Changes the turn direction
+   -  **Skip** — Skips the next player
+   -  **Draw Two** — Next player draws 2 cards and loses their turn
+   -  **Wild** — Choose any color to continue
+   -  **Wild Draw Four** — Choose a color + next player draws 4 cards
 5. **Say UNO!** — Type `uno` when finishing your turn with 1 card remaining, or face a 2-card penalty
 6. **Win** by being the first player to empty your hand!
 
@@ -221,7 +225,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👤 Author
 
-**Haroune** — *Developer & Designer*
+**Haroune**
 
 - GitHub: [@haroune-dev](https://github.com/haroune-dev)
 
