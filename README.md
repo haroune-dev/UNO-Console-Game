@@ -55,13 +55,6 @@ Whether you want a quick solo game against the bot or a multiplayer session with
 
 ---
 
-### 🃏 Gameplay — Player Turn
-<img src="screenshots/Capture d'écran 2026-03-28 150550.png" alt="Gameplay" width="700"/>
-
-> *View your hand, playable cards, and choose your next move. Cards are color-coded for easy identification.*
-
----
-
 ### 🎮 Turn Start Screen
 <img src="screenshots/Capture d'écran 2026-03-28 150422.png" alt="Turn Start" width="500"/>
 
@@ -70,6 +63,14 @@ Whether you want a quick solo game against the bot or a multiplayer session with
 </div>
 
 ---
+
+### 🃏 Gameplay — Player Turn
+<img src="screenshots/Capture d'écran 2026-03-28 150550.png" alt="Gameplay" width="700"/>
+
+> *View your hand, playable cards, and choose your next move. Cards are color-coded for easy identification.*
+
+---
+
 
 ## 🚀 Getting Started
 
