@@ -16,3 +16,5 @@ public abstract class ColoredCard extends Card {
         return session.colorize(this.toString(), color);
     }
 }
+
+
