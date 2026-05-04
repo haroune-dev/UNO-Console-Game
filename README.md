@@ -223,11 +223,13 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-**Haroune**
+- **Haroune-dev**
+- **ayoubgz1**
+- **0xraouf Abderraouf**
+- **AbdelhadiZA**
 
-- GitHub: [@haroune-dev](https://github.com/haroune-dev)
 
 ---
 
