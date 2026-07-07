@@ -2,34 +2,32 @@
 
 # 🎴 UNO Console Game
 
-**A feature-rich, text-based implementation of the classic UNO card game built entirely in Java.**
+**A console-based implementation of the classic UNO card game written in Java.**
 
 [![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Console%20%2F%20CLI-grey?style=for-the-badge&logo=windowsterminal&logoColor=white)](/)
 [![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)](/)
 
-*Play the beloved UNO card game right from your terminal — solo against a smart bot or with up to 4 friends!*
+*Play against a bot or with up to four players in the terminal.*
 
 [Getting Started](#-getting-started) •
 [Features](#-features) •
 [Screenshots](#-screenshots) •
 [Architecture](#-architecture) •
-[Contributing](#-contributing)
 
 </div>
 
 ---
 
-## 📖 About
+##  About
 
-**UNO Console Game** is a fully-featured, terminal-based recreation of the iconic UNO card game. Built with clean **Object-Oriented Programming** principles in Java, the game delivers a smooth and colorful CLI experience complete with ANSI-colored cards, typewriter animations, and an intelligent bot opponent.
+This project is a console-based implementation of the classic UNO card game developed in Java using object-oriented programming principles. It supports both single-player mode against a bot and local multiplayer for up to four players while following the standard UNO rules.
 
-Whether you want a quick solo game against the bot or a multiplayer session with friends gathered around one terminal, this project brings the fun of UNO to the command line.
+The project was built as an educational OOP project with a focus on clean code organization, inheritance, abstraction, encapsulation, and polymorphism.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -44,35 +42,36 @@ Whether you want a quick solo game against the bot or a multiplayer session with
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <div align="center">
 
-### 🏠 Game Menu & Mode Selection
-<img src="screenshots/Capture d'écran 2026-03-28 150343.png" alt="Game Menu" width="500"/>
+###  Game Menu & Mode Selection
+<img src="screenshots/Capture d_écran 2026-03-28 150343.png" alt="Game Menu" width="500"/>
 
 > *Choose between Player vs Bot, 2 Players, 3 Players, or 4 Players mode.*
 
 ---
 
-### 🎮 Turn Start Screen
-<img src="screenshots/Capture d'écran 2026-03-28 150422.png" alt="Turn Start" width="500"/>
+###  Turn Start Screen
+<img src="screenshots/Capture d_écran 2026-03-28 150422.png" alt="Turn Start" width="500"/>
 
 > *Clean, focused UI for each player's turn with privacy protection in multiplayer.*
+
+
+---
+
+###  Gameplay — Player Turn
+<img src="screenshots/Capture d_écran 2026-03-28 150550.png" alt="Gameplay" width="700"/>
+
+> *View your hand, playable cards, and choose your next move. Cards are color-coded for easy identification.*
 
 </div>
 
 ---
 
-### 🃏 Gameplay — Player Turn
-<img src="screenshots/Capture d'écran 2026-03-28 150550.png" alt="Gameplay" width="700"/>
 
-> *View your hand, playable cards, and choose your next move. Cards are color-coded for easy identification.*
-
----
-
-
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -103,15 +102,12 @@ java -cp bin game.Drive
 
 1. **Import** the project into Eclipse (`File → Import → Existing Projects`)
 2. **Run** `Drive.java` as a Java Application
-3. **Enjoy!** 🎉
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
-The project follows a **clean, modular architecture** using core OOP principles — inheritance, polymorphism, encapsulation, and abstraction.
-
-### 📂 Project Structure
+###  Project Structure
 
 ```
 UNO-Console-Game/
@@ -149,7 +145,7 @@ UNO-Console-Game/
 └── README.md
 ```
 
-### 🧬 Class Diagram
+###  Class Diagram
 
 <div align="center">
 <img src="screenshots/Blank diagram.png" alt="UML Class Diagram" width="800"/>
@@ -157,7 +153,7 @@ UNO-Console-Game/
 > *UML Class Diagram showing the complete inheritance hierarchy and relationships.*
 </div>
 
-### 🎯 Design Highlights
+###  Design Highlights
 
 - **Abstract Card Hierarchy** — `Card` → `ColoredCard` / `WildCard` → Concrete cards. Each card type implements its own `matches()` and `applyEffect()` logic via polymorphism.
 - **Separation of Concerns** — `GameController` handles rules and state, `GameSession` manages UI and player interaction, and `Drive` serves as the entry point.
@@ -166,26 +162,18 @@ UNO-Console-Game/
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 
-1. **Start the game** and choose a game mode (Player vs Bot or Multiplayer)
-2. **Enter player names** when prompted
-3. On your turn:
-   - View the **top card** on the discard pile
-   - See your **hand** and **playable cards**
-   - **Select a card** to play, or **draw** if you have no valid moves
-4. **Action cards** trigger immediately:
-   -  **Reverse** — Changes the turn direction
-   -  **Skip** — Skips the next player
-   -  **Draw Two** — Next player draws 2 cards and loses their turn
-   -  **Wild** — Choose any color to continue
-   -  **Wild Draw Four** — Choose a color + next player draws 4 cards
-5. **Say UNO!** — Type `uno` when finishing your turn with 1 card remaining, or face a 2-card penalty
-6. **Win** by being the first player to empty your hand!
+1. Select a game mode.
+2. Enter the player names.
+3. Play a valid card or draw one from the deck.
+4. Action cards apply their effects immediately.
+5. If you have one card left, type `uno` before ending your turn.
+6. The first player to empty their hand wins the round.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -197,39 +185,11 @@ UNO-Console-Game/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### 💡 Ideas for Contribution
-
-- [ ] Add network multiplayer support
-- [ ] Implement a tournament mode
-- [ ] Add card stacking rules (stack Draw Two on Draw Two)
-- [ ] Create a difficulty setting for the bot AI
-- [ ] Add save/load game functionality
-
----
-
-
-## 👤 Authors
+##  Authors
 
 - **Haroune-dev**
 - **ayoubgz1**
 - **0xraouf Abderraouf**
 - **AbdelhadiZA**
 
-
 ---
-
-<div align="center">
-
-**⭐ If you enjoyed this project, consider giving it a star! ⭐**
-
-</div>
