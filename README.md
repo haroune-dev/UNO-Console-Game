@@ -156,7 +156,7 @@ UNO-Console-Game/
 - **Abstract Card Hierarchy** — `Card` → `ColoredCard` / `WildCard` → Concrete cards. Each card type implements its own `matches()` and `applyEffect()` logic via polymorphism.
 - **Separation of Concerns** — `GameController` handles rules and state, `GameSession` manages UI and player interaction, and `Drive` serves as the entry point.
 - **Bot Strategy Pattern** — The bot selects cards based on a scoring algorithm that evaluates color frequency and card type in its hand.
-- **Standard 108-Card Deck** — Faithfully implements the official UNO deck composition.
+- **Standard 108-Card Deck** — like the official UNO.
 
 ---
 
@@ -175,10 +175,10 @@ UNO-Console-Game/
 
 | Technology | Purpose |
 |---|---|
-| **Java 17+** | Core language with modern switch expressions |
+| **Java 17+** | Main language|
 | **OOP** | Inheritance, polymorphism, encapsulation, abstraction |
-| **ANSI Escape Codes** | Terminal colors and text styling |
-| **Collections Framework** | `ArrayList` for dynamic hand & deck management |
+| **ANSI Escape Codes** | For colors in the console |
+| **Collections Framework** | `ArrayList` For hands and decks |
 | **Scanner** | Terminal input handling |
 
 ---
