@@ -35,7 +35,7 @@ This is a complete UNO game written in Java. We built it as a university project
 | 🔄 **Full UNO Ruleset** | Skip, Reverse, Draw Two, Wild, and Wild Draw Four — all action cards implemented |
 | 🏆 **Leaderboard & Scoring** | Track scores across multiple rounds with a ranked leaderboard |
 | ⚡ **UNO Call Mechanic** | Forget to type "UNO" when you're down to one card? That's a 2-card penalty! |
-| 🎬 **Typewriter Animations** | Smooth text animations and timed reveals for a polished feel |
+| 🎬 **Typewriter Animations** | Typewriter effect and small delays to make it feel less static |
 | 🔁 **Multi-Round Support** | Play multiple rounds in a single session with persistent scoring |
 
 ---
@@ -48,14 +48,14 @@ This is a complete UNO game written in Java. We built it as a university project
 ###  Game Menu & Mode Selection
 <img src="screenshots/Capture d_écran 2026-03-28 150343.png" alt="Game Menu" width="500" style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);"/>
 
-> *Choose between Player vs Bot, 2 Players, 3 Players, or 4 Players mode.*
+> Pick your mode - vs Bot, 2 players, 3 players, or 4 players.*
 
 ---
 
 ###  Turn Start Screen
 <img src="screenshots/Capture d_écran 2026-03-28 150422.png" alt="Turn Start" width="500" style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);"/>
 
-> *Clean, focused UI for each player's turn with privacy protection in multiplayer.*
+> *Each player gets his own screen. Press enter when you're ready so the next player doesn't see your hand.*
 
 ---
 
