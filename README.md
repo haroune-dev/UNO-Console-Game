@@ -21,10 +21,7 @@
 
 ##  About
 
-This project is a console-based implementation of the classic UNO card game developed in Java using object-oriented programming principles. It supports both single-player mode against a bot and local multiplayer for up to four players while following the standard UNO rules.
-
-The project was built as an educational OOP project with a focus on clean code organization, inheritance, abstraction, encapsulation, and polymorphism.
-
+This is a complete UNO game written in Java. We built it as a university project to practice real OOP. You can play alone vs a bot, or up to 4 people on the same terminal. It follows the official UNO rules with the full 108-card deck.
 ---
 
 ##  Features
