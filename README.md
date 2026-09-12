@@ -42,27 +42,27 @@ The project was built as an educational OOP project with a focus on clean code o
 
 ---
 
+
 ##  Screenshots
 
 <div align="center">
 
 ###  Game Menu & Mode Selection
-<img src="screenshots/Capture d_écran 2026-03-28 150343.png" alt="Game Menu" width="500"/>
+<img src="screenshots/Capture d_écran 2026-03-28 150343.png" alt="Game Menu" width="500" style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);"/>
 
 > *Choose between Player vs Bot, 2 Players, 3 Players, or 4 Players mode.*
 
 ---
 
 ###  Turn Start Screen
-<img src="screenshots/Capture d_écran 2026-03-28 150422.png" alt="Turn Start" width="500"/>
+<img src="screenshots/Capture d_écran 2026-03-28 150422.png" alt="Turn Start" width="500" style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);"/>
 
 > *Clean, focused UI for each player's turn with privacy protection in multiplayer.*
-
 
 ---
 
 ###  Gameplay — Player Turn
-<img src="screenshots/Capture d_écran 2026-03-28 150550.png" alt="Gameplay" width="700"/>
+<img src="screenshots/Capture d_écran 2026-03-28 150550.png" alt="Gameplay" width="700" style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);"/>
 
 > *View your hand, playable cards, and choose your next move. Cards are color-coded for easy identification.*
 
