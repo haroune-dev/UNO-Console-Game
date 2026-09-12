@@ -148,7 +148,7 @@ UNO-Console-Game/
 <div align="center">
 <img src="screenshots/Blank diagram.png" alt="UML Class Diagram" width="800"/>
 
-> *UML Class Diagram showing the complete inheritance hierarchy and relationships.*
+> *Class diagram - how everything is connected.*
 </div>
 
 ###  Design Highlights
