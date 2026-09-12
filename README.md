@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎴 UNO Console Game
+#  UNO Console Game
 
 **A console-based implementation of the classic UNO card game written in Java.**
 
@@ -31,7 +31,7 @@ The project was built as an educational OOP project with a focus on clean code o
 
 | Feature | Description |
 |---|---|
-| 🤖 **Smart Bot AI** | Play against an intelligent bot that strategically picks cards based on color frequency and card type |
+| 🤖 **Smart Bot** | Play against an intelligent bot that strategically picks cards based on color frequency and card type |
 | 👥 **Multiplayer** | Support for 2, 3, or 4 human players on the same terminal |
 | 🎨 **Colored Output** | ANSI color-coded cards ( Red,  Blue,  Green,  Yellow) for an immersive experience |
 | 🔄 **Full UNO Ruleset** | Skip, Reverse, Draw Two, Wild, and Wild Draw Four — all action cards implemented |
