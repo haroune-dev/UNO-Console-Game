@@ -22,6 +22,7 @@
 ##  About
 
 This is a complete UNO game written in Java. We built it as a university project to practice real OOP. You can play alone vs a bot, or up to 4 people on the same terminal. It follows the official UNO rules with the full 108-card deck.
+
 ---
 
 ##  Features
